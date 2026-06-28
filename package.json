@@ -1,0 +1,13 @@
+{
+  "name": "viadice-creator-admin",
+  "version": "1.0.0",
+  "description": "Local admin script for inviting ViaDice creator accounts. Not deployed anywhere — run from your own machine only.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "invite": "node server.js invite"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.1.0"
+  }
+}

@@ -1,0 +1,22 @@
+# ============================================================
+# CRITICAL: this is what actually keeps your repo safe.
+# The Firebase config inside index.html is NOT a secret and is safe
+# to commit — it's meant to be public. The files below ARE secrets.
+# If any of these ever get committed, rotate them immediately in the
+# Firebase Console (Service Accounts → Generate new key, then delete
+# the old one) even after removing them from git history, since old
+# commits can still be found in git history/forks.
+# ============================================================
+
+# Firebase service account keys — full admin access to your project
+*serviceAccountKey*.json
+*firebase-adminsdk*.json
+viadice-service-account.json
+
+# Node
+node_modules/
+npm-debug.log
+
+# Environment files, if you add any later
+.env
+.env.local
